@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"   # or "bun run build"
+  command = "npm ci && npm rebuild lightningcss --platform=linux --arch=x64 && npm run build"   # or "bun run build"
   publish = ".next"
 
 [[plugins]]
