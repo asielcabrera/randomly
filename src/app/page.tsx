@@ -1,5 +1,3 @@
-import RandomPicker from "@/components/RandomPicker";
-
 // app/page.tsx (Server Component)
 import RandomPickerPro from "@/components/RandomPickerPro";
 
